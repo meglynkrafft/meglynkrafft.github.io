@@ -57,7 +57,7 @@ ul.posts li {
 }
 .smiley {
   position: relative;
-  top: 0;
+  right: 0;
   transition: right 0.2s ease-in-out;
 }
 .container:hover .smiley {
