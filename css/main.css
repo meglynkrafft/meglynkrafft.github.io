@@ -44,20 +44,7 @@ ul.posts li {
 }
 
 /*hover slider*/
-.slider {
-  width: 325px;
-  background: #ccc;
-}
-.container {
-  margin: 5px 0px 5px 5px;
-  overflow: hidden;
-  display: inline-block;
-}
-.smiley {
-  position: relative;
-  left: 0;
-  transition: left 0.2s ease-in-out;
-}
-.container:hover .smiley {
-  left: -250px;
+.slidingDoors {
+	background-image: url('wood.jpg'), url('wood.jpg'), url('car.jpg');
+ background-position: -100px 0px, 100px 0px, 0px 0px;
 }
