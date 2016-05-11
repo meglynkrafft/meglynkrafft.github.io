@@ -57,3 +57,23 @@ ul.posts li {
     left:0;
     top:0;
 }
+
+/*java*/
+$('div.holdingbox').bind("mouseenter", function() {
+        $(this).find('span.rightbox').animate({
+               "left": "+=5px",
+                "opacity" : "show"
+              }, {
+            duration: 1000,
+            step: function( now, fx ){
+                  jQuery('span.box').css( "left", now );
+            }
+          });
+        });
+    $('div.holdingbox').bind("mouseleave", function() {
+        jQuery(this).find('span.rightbox').animate({
+            "left": "-=5px",
+            "opacity" : "hide"
+        }, "slow");
+        
+    });
