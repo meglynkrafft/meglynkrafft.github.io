@@ -11,6 +11,6 @@ title: All Are Voyeurs
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" image="{{ post.image }}{{ post.image }}</a></li>
+	    <li><a href="{{ post.url }}" image="{{ post.image }}{{ post.image }}<br><span>{{ post.date | date_to_string }}</span></a></li>
 	  {% endfor %}
 	</ul>
