@@ -2,6 +2,7 @@ body {
     margin: 60px auto;
     width: 70%;
     background-color: #000000;
+    color: #ffffff
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -43,8 +44,3 @@ ul.posts li {
     list-style: none;
 }
 
-/*hover slider*/
-.slidingDoors {
-	background-image: url('wood.jpg'), url('wood.jpg'), url('car.jpg');
- background-position: -100px 0px, 100px 0px, 0px 0px;
-}
