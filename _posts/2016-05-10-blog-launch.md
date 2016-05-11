@@ -2,6 +2,7 @@
 layout: post
 title: "Who Needs Sleep? 2006 Haskell Wexler"
 date: 2016-05-10
+image: http://i.imgur.com/SAY6klu.png
 ---
 <div style="align=center"><img src="http://i.imgur.com/SAY6klu.png"></div>
 <table style="width:100%">
