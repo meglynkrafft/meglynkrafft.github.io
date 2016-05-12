@@ -69,7 +69,7 @@ ul.posts li {
 
 .left_gate {
   position: absolute;
-  background: #41B5F0;
+  background-image: url('http://i.imgur.com/6t9Kbig.png');
   bottom: 0; right: 50%; left: 0; top: 0;
   
   -webkit-transition: all 0.5s ease-out;
@@ -85,7 +85,7 @@ ul.posts li {
 
 .right_gate {
   position: absolute;
-  background: #0C5CA3;
+  background-image: url('http://i.imgur.com/8AWM6g9.png');
   bottom: 0;
   left: 50%;
   right: 0;
