@@ -50,32 +50,60 @@ ul.posts li {
 }
 
 /*sliding door*/
-.container {
-	position: relative;
-	overflow: hidden;
+.cover {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  background-color: #eee;
+  z-index: 1;
+  
+  -webkit-box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  -mox-box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
 }
-.door-left, .door-right {
-	position: absolute;
-	height: 100%;
-	width: 50%;
-	top: 0%;
-	transition: all ease 0.3s;
-	-moz-transition: all ease 0.3s;
-	-webkit-transition: all ease 0.3s;
-	-o-transition: all ease 0.3s;
-	-ms-transition: all ease 0.3;
+.cover p {
+  text-align: center;
+  margin: 0;
 }
-.door-left {
-	left: 0%;
-	background-image: url('http://i.imgur.com/6t9Kbig.png');
+
+.left_gate {
+  position: absolute;
+  background: #41B5F0;
+  bottom: 0; right: 50%; left: 0; top: 0;
+  
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition:all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  
 }
-.door-right {
-	left: 50%;
-	background-image: url('http://i.imgur.com/8AWM6g9.png');
+.cover:hover .left_gate {
+  right: 100%; left: -50%;
 }
-.container:hover .door-left{
-	left: -50%;
+
+.right_gate {
+  position: absolute;
+  background: #0C5CA3;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  top: 0;
+  
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
-.container:hover .door-right{
-	left: 100%;
+.cover:hover .right_gate {
+  left: 100%; right: -50%;
+}
+
+.slide_in {
+  overflow: hidden;
+}
+.slide_in .left_gate {
+  background: #0C5CA3;
 }
