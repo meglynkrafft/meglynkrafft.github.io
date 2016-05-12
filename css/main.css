@@ -1,6 +1,5 @@
 body {
     margin: 60px auto;
-    width: 90%;
     background-color: #000000;
     color: #ffffff;
 }
@@ -16,7 +15,6 @@ nav ul li, footer ul li {
     margin-right: 20px;
     width: 100%;
     color: #ffffff;
-    padding: 100px;
     background-color: #a2bbc0;
 }
 a {
@@ -28,6 +26,7 @@ a:hover {
 }
 h1 {
     font-size: 3em;
+        width: 90%;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
@@ -46,10 +45,12 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+        width: 90%;
 }
 
 ul.posts li {
     list-style: none;
+        width: 90%;
 }
 
 /*sliding door*/
