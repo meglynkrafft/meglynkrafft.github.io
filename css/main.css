@@ -6,14 +6,12 @@ body {
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     list-style: none;
-    width: 100%;
     font-weight: bold;
     background-color: #a2bbc0;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-    width: 100%;
     color: #ffffff;
     background-color: #a2bbc0;
 }
@@ -26,7 +24,6 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-        width: 90%;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
@@ -35,8 +32,6 @@ p {
     color: #333;
 }
 footer {
-
-    width: 100%;
     padding: 100px;
     background-color: #d6dbc8;
     font-size: .8em;
@@ -45,12 +40,10 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
-        width: 90%;
 }
 
 ul.posts li {
     list-style: none;
-        width: 90%;
 }
 
 /*sliding door*/
